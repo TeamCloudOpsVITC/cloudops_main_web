@@ -8,7 +8,7 @@ This folder contains the Core Committee Component code written in Next.js
 
 - Framer motion library is imported to design the animations
 - There will be 2 sections
-	1. Lead Members of each Department
-	2. Other Members of the Club from every Department
+	1. Board Members of each Department
+	2. Lead Members of the Club from every Department
 - Each section showcases the respective members' details
-- Upon hover event, the opacity of the member box decreases and icons of websites will be imported from heroicons and will be displayed for git and other platform profiles.
+- Upon hover event, the opacity of the member box decreases and icons of websites will be imported from react-icons and will be displayed for git and other platform profiles.
