@@ -19,12 +19,7 @@ export default function Page() {
 
   return (
     <div className="App">
-      <nav className="navbar">
-        <ul>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+     
 
       <div className="container">
         <div className="event-box" id="completed-events">
@@ -44,34 +39,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="section-box" id="team">
-        <section className="section">
-          <h2>Our Team</h2>
-          <div className="team-container">
-            <div className="team-member">
-              <p>Vedant Kumar</p>
-              <div className="team-detail">
-                <h3>Technical Lead</h3>
-                <p>Details about Vedant Kumar...</p>
-              </div>
-            </div>
-            <div className="team-member">
-              <p>Saptrishi Acharya</p>
-              <div className="team-detail">
-                <h3>Technical Lead</h3>
-                <p>Details about Saptrishi Acharya...</p>
-              </div>
-            </div>
-            <div className="team-member">
-              <p>Shaurya</p>
-              <div className="team-detail">
-                <h3>Member</h3>
-                <p>Details about Shaurya...</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+     
 
       <div className="section-box" id="completed-event-details">
         <section className="section">
@@ -105,14 +73,7 @@ export default function Page() {
         </section>
       </div>
 
-      <footer className="footer">
-        <ul>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#completed-events" onClick={handleCompletedEventsClick}>Completed Events</a></li>
-          <li><a href="#upcoming-events" onClick={handleUpcomingEventsClick}>Upcoming Events</a></li>
-        </ul>
-      </footer>
+   
 
       <button id="scrollTopBtn" title="Go to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>↑</button>
     </div>
