@@ -1,0 +1,159 @@
+/* Dark theme and base styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #282c34; /* Background color for top navigation bar */
+  width: calc(100% - 40px); /* Make the top navigation bar exactly as wide as the bottom navigation bar */
+  margin: 0 auto; /* Center the top navigation bar */
+  padding: 1px 0; /* Add some vertical padding */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.event-box {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+}
+
+.event-list p {
+  margin: 10px 0;
+}
+
+.event-list a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.event-list button {
+  background-color: #61dafb;
+  border: none;
+  color: #121212;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.event-list button:hover {
+  background-color: #21a1f1;
+  cursor: pointer;
+}
+
+.section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.team-container, .event-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member, .event-detail {
+  background-color: #4a148c; /* Non-hover color for boxes inside Our Team */
+  color: #e0e0e0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, background-color 0.3s, color 0.3s;
+}
+
+.team-member:hover, .event-detail:hover {
+  transform: scale(1.1);
+}
+
+.team-member {
+  font-weight: bold; /* Make non-hover text bold */
+  font-size: 1.1em; /* Make non-hover text slightly bigger */
+}
+
+.team-container .team-member:hover, .event-container .event-detail:hover {
+  background-color: #6a1b9a; /* Hover color for boxes inside Our Team and Completed Events */
+}
+
+.team-member:hover, .event-detail:hover {
+  background-color: #6a1b9a; /* Hover color for Our Team box and Completed Event boxes */
+}
+
+.team-member:hover .team-detail, .event-detail:hover p {
+  display: block;
+}
+
+.footer {
+  background-color: #282c34;
+  color: #e0e0e0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer ul li a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #61dafb;
+  color: #121212;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.section-box {
+  background-color: #212121;
+  border-radius: 8px;
+  padding: 20px;
+  transition: background-color 0.3s, transform 0.3s ease-in-out, color 0.3s;
+  margin: 20px 0;
+  border: 2px solid #444; /* Border color */
+}
+
+.section-box:hover {
+  background-color: #333;
+  color: #ffb74d; /* Text color on hover */
+  border-color: #ffb74d; /* Border color on hover */
+}

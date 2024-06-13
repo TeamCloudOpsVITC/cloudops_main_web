@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .event-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 45%;
+  }
+  
+  .event-box h2 {
+    margin-top: 0;
+  }
+  
+  .event-list p {
+    margin: 10px 0;
+  }
+  
+  .register-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,18 @@
+.event-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-detail {
+    margin-bottom: 20px;
+  }
+  
+  .event-detail h3 {
+    margin: 0;
+  }
+  
+  .event-detail p {
+    margin: 5px 0;
+  }
+  
