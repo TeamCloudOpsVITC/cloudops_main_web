@@ -157,3 +157,10 @@ body {
   color: #ffb74d; /* Text color on hover */
   border-color: #ffb74d; /* Border color on hover */
 }
+
+.img_class{
+  border-radius: 22px;
+}
+.text1{
+  font-size: 30px;
+}

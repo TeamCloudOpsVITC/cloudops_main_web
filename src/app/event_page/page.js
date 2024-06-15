@@ -43,15 +43,24 @@ export default function Page() {
 
       <div className="section-box" id="completed-event-details">
         <section className="section">
-          <h2>Completed Event Details</h2>
+          <h1>Completed Event Details</h1>
+          <br>
+          </br>
+          <br></br>
+          <br>
+          </br>
+          <br></br>
           <div className="event-container">
             <div className="event-detail" id="event-a-details">
               <h3>INNO BLITZ</h3>
-              <Image src={im1} width={500} height={500} alt="Inno Blitz Poster" />
+              <br></br>
+             
+              <Image src={im1} width={500} height={500} alt="Inno Blitz Poster"  class="img_class"/>
             </div>
             <div className="event-detail" id="event-b-details">
               <h3>DOCKER WORKSHOP</h3>
-              <Image src={im2} width={500} height={500} alt="Docker Workshop Poster" />
+              <br></br>
+              <Image src={im2} width={500} height={500} alt="Docker Workshop Poster" class="img_class"/>
             </div>
           </div>
         </section>
