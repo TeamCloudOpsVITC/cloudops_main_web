@@ -21,12 +21,13 @@ const getData = async (id:number) => {
 
 const SinglePostPage = async ({ params }: { params: { id: number } }) => {
     const { id } = params;
-    const post = await getData(id);
-  
+    //const post = await getData(id);
+    const post = (await import("/public/posts/"+ id + ".json")).default;
+
     return (
       <div className={styles.container}>
         <div className={styles.imgContainer}>
-          <Image src="/about.png" alt="" fill className={styles.img} />
+          <Image src={`/${id}.jpeg`} alt="" fill className={styles.img} />
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>{post.title}</h1>
