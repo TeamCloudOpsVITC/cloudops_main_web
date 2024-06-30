@@ -1,9 +1,17 @@
-import Image from "next/image";
+import About from './Home/About'
+import Faq from './Home/Faq'
+import Highlight from './Home/Highlight'
+import './Home/page.css'
 
-export default function Home() {
+function Page() {
+    
   return (
-    <div>
-      <h1 className="text-slate-100 text-center text-3xl">Home Page</h1>
+    <div className="max-w-7xl my-0 mx-auto p-8 text-center">
+      <div className="-mx-40 px-12"><About/></div>
+      <Highlight/>
+      <div className="-mx-40 px-40 py-12 text-left"><Faq /></div>
     </div>
   );
 }
+
+export default Page;
